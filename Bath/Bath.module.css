@@ -1,0 +1,6 @@
+.bath {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 136, 49);
+  }

@@ -1,10 +1,11 @@
 import * as React from "react";
+import styles from './Sink.module.css'
 
 function Sink() {
   return (
-    <>
-      <h1 className="sink appliances">Sink</h1>
-    </>
+    <div className={styles.sink}>
+      <h1>Sink</h1>
+    </div>
   );
 }
 

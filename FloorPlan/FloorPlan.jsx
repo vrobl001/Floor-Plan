@@ -1,12 +1,13 @@
 import * as React from "react";
-import Bedroom from "./Bedroom";
-import Kitchen from "./Kitchen";
-import Bath from "./Bath";
-import LivingRoom from "./LivingRoom";
+import Bedroom from "../Bedroom/Bedroom";
+import Kitchen from "../Kitchen/Kitchen";
+import Bath from "../Bath/Bath";
+import LivingRoom from "../LivingRoom/LivingRoom";
+import styles from './FloorPlan.module.css'
 
 function FloorPlan() {
   return (
-    <div className="container">
+    <div className={styles.floorPlan}>
       <Bedroom bedNum="1" />
       <Kitchen />
       <Bath size="Full" />

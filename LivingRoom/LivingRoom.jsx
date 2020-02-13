@@ -1,8 +1,9 @@
 import * as React from "react";
+import styles from './LivingRoom.module.css'
 
 function LivingRoom() {
   return (
-    <div className="living-room">
+    <div className={styles.livingRoom}>
       <h1>Living Room</h1>
     </div>
   );

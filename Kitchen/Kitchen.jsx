@@ -1,10 +1,11 @@
 import * as React from "react";
-import Oven from "./Oven";
-import Sink from "./Sink";
+import Oven from "../Oven/Oven";
+import Sink from "../Sink/Sink";
+import styles from './Kitchen.module.css'
 
 function Kitchen() {
   return (
-    <div id="kitchen">
+    <div className={styles.kitchen} id="kitchen">
       <Oven />
       <Sink />
       <div id="kitchen-floor">

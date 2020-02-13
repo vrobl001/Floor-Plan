@@ -1,0 +1,11 @@
+.sink {
+    display: flex;
+    background-color: rgb(147, 86, 19);
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+  }

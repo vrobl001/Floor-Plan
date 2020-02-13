@@ -1,0 +1,11 @@
+.oven {
+    display: flex;
+    background-color: rgb(201, 71, 22);
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 15px;
+  }

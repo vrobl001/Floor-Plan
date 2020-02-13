@@ -1,0 +1,16 @@
+.floorPlan {
+    height: 700px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr 2fr;
+    grid-template-areas:
+      "bedroom-1 living-room living-room kitchen"
+      "full-bath living-room living-room kitchen"
+      "bedroom-2 half-bath bedroom-3 bedroom-3";
+}

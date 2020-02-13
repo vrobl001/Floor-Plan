@@ -1,10 +1,11 @@
 import * as React from "react";
+import styles from './Oven.module.css'
 
 function Oven() {
   return (
-    <>
-      <h1 className="oven appliances">Oven</h1>
-    </>
+    <div className={styles.oven}>
+      <h1>Oven</h1>
+    </div>
   );
 }
 
